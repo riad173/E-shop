@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    top: 0%;
+    right: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar span{
+    color: rgb(252, 145, 163);
+}
+
+.navbar .navlinks{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.navbar .navlinks a{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .icons{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.icons .bx{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+.hero-section{
+    height: 50vh;
+    background-image: url(./retro-music-concept-with-headphones-space.jpg);
+    border-radius: 60px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero-section .content h1{
+    font-size: 50px;
+    max-width: 600px;
+    font-weight: 700;
+}
+
+.content .search-input{
+    margin: 50px 0 0 20px;
+    padding: 10px 60px 10px 60px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 20px;
+    background-image: url(./search-alt-regular-24.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background: #fff;
+}
+
+.content .search-input:focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+.hero-section .social a{
+    text-decoration: none;
+}
+
+
+
+.hero-section .social .bx{
+    font-size: 30px;
+    display: flex;
+    padding: 10px;
+    color: black;
+
+}
+
+.product .content{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .content .item{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.item li a{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.item .see{
+    color: rgb(223, 132, 147);
+}
+
+.arrow{
+    margin: 20px 10px;
+    padding: 0px 50px;
+}
+
+.arrow .bx{
+    background: pink;
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    color: black;
+    align-items: center;
+}
+
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    background: rgb(238, 133, 133);
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px 2px;
+}
+
+.con{
+    margin: 20px;
+}
+
+.con p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-up{
+    display: flex;
+    align-items: center;
+}
+
+.footer-f h1{
+    font-size: 80px;
+}
+
+.footer-f p{
+    font-weight: 700;
+}
+
+.footer-f button{
+    height: 40px;
+    border: none;
+    width: 120px;
+    background: pink;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+    
+}
+
+.footer-f button a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.footer{
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.link h1{
+    font-size: 20px;
+    color: #fff;
+}
+
+.secc h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.secc span{
+    color: rgb(223, 132, 147);
+}
+
+.social .bx{
+    font-size: 40px;
+    margin: 10px 0;
+    padding: 0 10px 0 0;
+    color: #fff;
+}
+
+.secc p{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.link ul li{
+    margin-top: 10px;;
+    list-style: none;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: #fff;
+}
